@@ -9,7 +9,7 @@
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
-       text-align: center;
+        text-align: center;
       }
 
       h1 {
@@ -40,8 +40,12 @@
         padding: 10px;
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-weight: bold;
       }
-
+      .list2 {
+       margin-left: 120px;
+       font-weight: 500;
+      }
       h3 {
         color: #777;
       }
@@ -56,61 +60,60 @@
         color: #0056b3;
       }
 
-      .container{
+      .container {
         padding: 80px;
       }
     </style>
   </head>
   <body>
-    <h1>holis</h1>
     <h1>GITHUB</h1>
     <h2>Primeros pasos</h2>
     <h2>Volver a los 17 sería genial</h2>
     <p>Estoy iniciando un desarrollo de una app y ¿? eureka</p>
     <p>porque no mejor la conecto (subo) a GITHUB</p>
-        <div class="container">
+    <div class="container">
       <ul>
         <li>Ver status</li>
         <ul>
-          <li>git status</li>
+          <li class="list2">git status</li>
         </ul>
         <li>Ver si ya estamos conectados a una rama</li>
         <ul>
-          <li>git remote -v</li>
+          <li class="list2">git remote -v</li>
         </ul>
         <li>INICIAMOS GIT</li>
         <ul>
-          <li>git init</li>
+          <li class="list2">git init</li>
         </ul>
         <li>VAMOS a GITHUB (arriba) y creamos un nuevo Repo de nombre SISI</li>
         <ul>
-          <li>crear nuevo repositorio</li>
-          <li>agregar nombre SISI</li>
-          <li>tocar el botón crear</li>
+          <li class="list2">crear nuevo repositorio</li>
+          <li class="list2">agregar nombre SISI</li>
+          <li class="list2">tocar el botón crear</li>
         </ul>
         <li>Conexión remote add</li>
         <ul>
-          <li>
+          <li class="list2">
             Copiamos el comando: git remote add origin
             https://github.com/HX-MLuquez/SISI.git
           </li>
-          <li>lo pegamos en nuestra consola y damos ENTER</li>
+          <li class="list2">lo pegamos en nuestra consola y damos ENTER</li>
         </ul>
         <li>Renombre a rama MASTER -> MAIN</li>
         <ul>
-          <li>Copiamos el comando: git branch -M main</li>
-          <li>lo pegamos en nuestra consola y damos ENTER</li>
+          <li class="list2">Copiamos el comando: git branch -M main</li>
+          <li class="list2">lo pegamos en nuestra consola y damos ENTER</li>
         </ul>
         <li>
           ADD - ARMAR el commit (la caja a salvar). Nuestra versión (nuestro
           back)
         </li>
         <ul>
-          <li>git add .</li>
+          <li class="list2">git add .</li>
         </ul>
         <li>COMMIT - Poner nombre a la caja y git lo identifica con un hash</li>
         <ul>
-          <li>
+          <li class="list2">
             git commit -m "iniciando nuestro primer subida de un repo a GITHUB"
           </li>
         </ul>
@@ -119,13 +122,13 @@
           primera y única vez es un push especial
         </li>
         <ul>
-          <li>git push -u origin main</li>
-          <li>para futuros push solo se debe hacer: git push</li>
+          <li class="list2">git push -u origin main</li>
+          <li class="list2">para futuros push solo se debe hacer: git push</li>
         </ul>
 
         <li>Ver status</li>
         <ul>
-          <li>git status</li>
+          <li class="list2">git status</li>
         </ul>
         <h3>
           A partir de ahora para cada vez que deseamos subir cambios haremos los
@@ -136,19 +139,20 @@
           back)
         </li>
         <ul>
-          <li>git add .</li>
+          <li class="list2">git add .</li>
         </ul>
         <li>COMMIT - Poner nombre a la caja y git lo identifica con un hash</li>
         <ul>
-          <li>git commit -m "otro commit"</li>
+          <li class="list2">git commit -m "otro commit"</li>
         </ul>
         <li>PUSH - subir, empujar lo guardado hacia arriba</li>
         <ul>
-          <li>git push</li>
+          <li class="list2">git push</li>
         </ul>
       </ul>
     </div>
     <h4>UHUUUU y ahora que hacemos</h4>
+
+    <script src="./assets/script.js"></script>
   </body>
 </html>
-
